@@ -104,7 +104,10 @@ def main(task_name=None, task_config=None):
 
 
 def run(TASK_ENV, args):
-    epid, suc_num, fail_num, seed_list = 0, 0, 0, []
+    # seed_base: per-shard seed offset so parallel workers with separate
+    # task_config dirs draw disjoint seed ranges (identical seeds would
+    # replay identical scripted episodes).
+    epid, suc_num, fail_num, seed_list = int(args.get("seed_base", 0)), 0, 0, []
 
     print(f"Task Name: \033[34m{args['task_name']}\033[0m")
 

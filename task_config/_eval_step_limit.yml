@@ -11,3 +11,4 @@ blocks_ranking_try: 3500
 place_block_mat: 1500
 put_back_block: 500
 battery_try: 1000
+long_horizon: 4500

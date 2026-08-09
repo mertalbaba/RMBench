@@ -1,0 +1,12 @@
+{
+  "full_description": "",
+  "schema": "",
+  "preference": "",
+  "seen": [
+    "On the table there are colored blocks resting on small mats, two identical covers, and a button. Complete the following steps in order. {stage_plan}",
+    "The table holds colored blocks on mats, two identical covers, and a button. Work through the steps below one after another. {stage_plan}"
+  ],
+  "unseen": [
+    "Several colored blocks sit on mats on the table, along with a pair of identical covers and a button. Carry out these steps in sequence. {stage_plan}"
+  ]
+}
